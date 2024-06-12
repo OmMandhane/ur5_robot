@@ -1,0 +1,268 @@
+[0.009s] Invoking command in '/home/om/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/ros2_ws/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/ros2_ws/install/ur_description
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.516s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.523s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.636s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.638s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.678s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.686s] -- Looking for pthread.h
+[0.772s] -- Looking for pthread.h - found
+[0.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.835s] -- Found Threads: TRUE  
+[1.015s] -- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.638s] -- Configuring done
+[1.641s] -- Generating done
+[1.645s] -- Build files have been written to: /home/om/ros2_ws/build/ur_description
+[1.659s] Invoked command in '/home/om/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/ros2_ws/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/ros2_ws/install/ur_description
+[1.663s] Invoking command in '/home/om/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ros2_ws/build/ur_description -- -j8 -l8
+[1.696s] Invoked command in '/home/om/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ros2_ws/build/ur_description -- -j8 -l8
+[1.723s] Invoking command in '/home/om/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ros2_ws/build/ur_description
+[1.729s] -- Install configuration: ""
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10
+[1.729s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3
+[1.730s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.731s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.732s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.732s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30
+[1.732s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.733s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.734s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.734s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.734s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/launch
+[1.735s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/launch/gazebo.launch.py
+[1.735s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.736s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes
+[1.736s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5
+[1.737s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual
+[1.737s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[1.739s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[1.744s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[1.744s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[1.746s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[1.748s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[1.748s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[1.749s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision
+[1.749s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual
+[1.750s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.751s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.753s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.753s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.756s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.757s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.758s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual
+[1.759s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.761s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.764s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.764s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.765s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.766s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.766s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.767s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision
+[1.767s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.767s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.767s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.767s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.768s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.768s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.768s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.768s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20
+[1.768s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual
+[1.768s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[1.768s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[1.769s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[1.769s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[1.769s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[1.770s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[1.770s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[1.771s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[1.772s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[1.773s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3
+[1.773s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual
+[1.773s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[1.774s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[1.776s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[1.776s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.777s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.777s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[1.777s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[1.778s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision
+[1.778s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[1.778s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[1.778s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[1.779s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[1.779s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[1.779s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[1.780s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[1.780s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e
+[1.780s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual
+[1.780s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[1.782s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[1.784s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[1.784s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[1.785s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[1.786s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[1.787s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e
+[1.788s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual
+[1.789s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[1.791s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.792s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision
+[1.792s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.792s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.792s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e
+[1.792s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual
+[1.793s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[1.794s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[1.796s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[1.796s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[1.797s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[1.798s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[1.798s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[1.799s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual
+[1.800s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[1.801s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[1.801s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[1.803s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision
+[1.803s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[1.803s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[1.803s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[1.803s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models
+[1.803s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane
+[1.803s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model-1_3.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model-1_4.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model.config
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model-1_2.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model-1_3.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model-1_4.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model.config
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model-1_2.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model.sdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/rviz
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[1.804s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur5.urdf
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/inc
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/test
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/path.sh
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/path.dsv
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.bash
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.sh
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.zsh
+[1.805s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.dsv
+[1.806s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/package.dsv
+[1.806s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[1.806s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[1.806s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[1.806s] -- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/package.xml
+[1.808s] Invoked command in '/home/om/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ros2_ws/build/ur_description

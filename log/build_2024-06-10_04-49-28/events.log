@@ -1,0 +1,504 @@
+[0.000000] (-) TimerEvent: {}
+[0.000660] (ur5_controller) JobQueued: {'identifier': 'ur5_controller', 'dependencies': OrderedDict()}
+[0.000736] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.000759] (ur5_controller) JobStarted: {'identifier': 'ur5_controller'}
+[0.004889] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.008122] (ur5_controller) JobProgress: {'identifier': 'ur5_controller', 'progress': 'cmake'}
+[0.008579] (ur5_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/om/ros2_ws/src/ur5_controller', '-DCMAKE_INSTALL_PREFIX=/home/om/ros2_ws/install/ur5_controller'], 'cwd': '/home/om/ros2_ws/build/ur5_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1345'), ('SYSTEMD_EXEC_PID', '1517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2850'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:25318'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1489,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1489'), ('INVOCATION_ID', '6c84bb12872e49c58f749b1d467a5767'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WAMYO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dc05370a-4072-49cc-9dbb-0199d24a4d8e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/ros2_ws/build/ur5_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.011846] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.012543] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '/home/om/ros2_ws/src/ur_description', '-DCMAKE_INSTALL_PREFIX=/home/om/ros2_ws/install/ur_description'], 'cwd': '/home/om/ros2_ws/build/ur_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1345'), ('SYSTEMD_EXEC_PID', '1517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2850'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:25318'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1489,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1489'), ('INVOCATION_ID', '6c84bb12872e49c58f749b1d467a5767'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WAMYO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dc05370a-4072-49cc-9dbb-0199d24a4d8e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/ros2_ws/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.056562] (ur5_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.058993] (ur_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099233] (-) TimerEvent: {}
+[0.099897] (ur5_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.102504] (ur_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.106096] (ur5_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.108787] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.172812] (ur5_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.178987] (ur5_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.179149] (ur5_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.179345] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.179422] (ur5_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.181986] (ur5_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.184913] (ur_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185122] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185388] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.187680] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199380] (-) TimerEvent: {}
+[0.244135] (ur5_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.250465] (ur5_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.250764] (ur5_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.250967] (ur5_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.252836] (ur5_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.253265] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.259872] (ur_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.260123] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.260437] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.262111] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299724] (-) TimerEvent: {}
+[0.390770] (ur5_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399867] (-) TimerEvent: {}
+[0.403062] (ur_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.472527] (ur5_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.484469] (ur_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500342] (-) TimerEvent: {}
+[0.504497] (ur5_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.508604] (ur5_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.515620] (ur5_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.516600] (ur_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.520645] (ur_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.526058] (ur5_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.527498] (ur_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.539082] (ur_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541790] (ur5_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.569129] (ur_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600476] (-) TimerEvent: {}
+[0.615986] (ur5_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.618094] (ur5_controller) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.640388] (ur_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.642516] (ur_description) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.673234] (ur5_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.680814] (ur5_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.683340] (ur_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.690889] (ur_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700629] (-) TimerEvent: {}
+[0.764206] (ur5_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.764475] (ur5_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.777079] (ur_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.777457] (ur_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800772] (-) TimerEvent: {}
+[0.825365] (ur5_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.826675] (ur5_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.838966] (ur_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.839827] (ur_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900920] (-) TimerEvent: {}
+[1.001877] (-) TimerEvent: {}
+[1.005961] (ur5_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.019290] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[1.102135] (-) TimerEvent: {}
+[1.202881] (-) TimerEvent: {}
+[1.303451] (-) TimerEvent: {}
+[1.404235] (-) TimerEvent: {}
+[1.504561] (-) TimerEvent: {}
+[1.604906] (-) TimerEvent: {}
+[1.642907] (ur_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.645426] (ur_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.649764] (ur_description) StdoutLine: {'line': b'-- Build files have been written to: /home/om/ros2_ws/build/ur_description\n'}
+[1.664032] (ur_description) CommandEnded: {'returncode': 0}
+[1.664793] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[1.667234] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/ros2_ws/build/ur_description', '--', '-j8', '-l8'], 'cwd': '/home/om/ros2_ws/build/ur_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1345'), ('SYSTEMD_EXEC_PID', '1517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2850'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:25318'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1489,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1489'), ('INVOCATION_ID', '6c84bb12872e49c58f749b1d467a5767'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WAMYO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dc05370a-4072-49cc-9dbb-0199d24a4d8e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/ros2_ws/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.700307] (ur_description) CommandEnded: {'returncode': 0}
+[1.705013] (-) TimerEvent: {}
+[1.718776] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'install'}
+[1.727324] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/ros2_ws/build/ur_description'], 'cwd': '/home/om/ros2_ws/build/ur_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1345'), ('SYSTEMD_EXEC_PID', '1517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2850'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:25318'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1489,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1489'), ('INVOCATION_ID', '6c84bb12872e49c58f749b1d467a5767'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WAMYO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dc05370a-4072-49cc-9dbb-0199d24a4d8e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/ros2_ws/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.733330] (ur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.733557] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config\n'}
+[1.733680] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5\n'}
+[1.733789] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml\n'}
+[1.734040] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml\n'}
+[1.734182] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml\n'}
+[1.734241] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml\n'}
+[1.734312] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10\n'}
+[1.734365] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml\n'}
+[1.734418] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml\n'}
+[1.734493] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml\n'}
+[1.734548] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml\n'}
+[1.734602] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e\n'}
+[1.734656] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml\n'}
+[1.734710] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml\n'}
+[1.734766] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml\n'}
+[1.734820] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml\n'}
+[1.734874] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/initial_positions.yaml\n'}
+[1.734926] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20\n'}
+[1.734980] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml\n'}
+[1.735033] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml\n'}
+[1.735136] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml\n'}
+[1.735200] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml\n'}
+[1.735268] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3\n'}
+[1.735324] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml\n'}
+[1.735380] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml\n'}
+[1.735437] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml\n'}
+[1.735492] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml\n'}
+[1.735549] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e\n'}
+[1.735605] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml\n'}
+[1.735660] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml\n'}
+[1.735717] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml\n'}
+[1.735793] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml\n'}
+[1.735849] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e\n'}
+[1.735905] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml\n'}
+[1.735962] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml\n'}
+[1.736020] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml\n'}
+[1.736081] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml\n'}
+[1.736133] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e\n'}
+[1.736184] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml\n'}
+[1.736266] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml\n'}
+[1.736334] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml\n'}
+[1.736386] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml\n'}
+[1.736436] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30\n'}
+[1.736840] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml\n'}
+[1.737347] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml\n'}
+[1.738103] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml\n'}
+[1.738582] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml\n'}
+[1.739041] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/launch\n'}
+[1.739494] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/launch/gazebo.launch.py\n'}
+[1.739956] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py\n'}
+[1.740514] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes\n'}
+[1.740983] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5\n'}
+[1.741438] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual\n'}
+[1.741899] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae\n'}
+[1.743457] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae\n'}
+[1.748337] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae\n'}
+[1.748824] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae\n'}
+[1.750401] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae\n'}
+[1.752715] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae\n'}
+[1.752932] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae\n'}
+[1.753911] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision\n'}
+[1.754170] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl\n'}
+[1.754415] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl\n'}
+[1.754530] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl\n'}
+[1.754608] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl\n'}
+[1.754695] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl\n'}
+[1.754872] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl\n'}
+[1.755018] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl\n'}
+[1.755108] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10\n'}
+[1.755185] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual\n'}
+[1.755283] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae\n'}
+[1.756186] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae\n'}
+[1.757969] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae\n'}
+[1.758259] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae\n'}
+[1.760649] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae\n'}
+[1.762298] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae\n'}
+[1.762566] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae\n'}
+[1.763483] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision\n'}
+[1.763613] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl\n'}
+[1.763684] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl\n'}
+[1.763774] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl\n'}
+[1.763855] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl\n'}
+[1.763929] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl\n'}
+[1.764022] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl\n'}
+[1.764119] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl\n'}
+[1.764196] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e\n'}
+[1.764277] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual\n'}
+[1.764327] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae\n'}
+[1.766004] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae\n'}
+[1.768367] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae\n'}
+[1.768744] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae\n'}
+[1.769771] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae\n'}
+[1.770799] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae\n'}
+[1.770920] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae\n'}
+[1.771862] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision\n'}
+[1.772101] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl\n'}
+[1.772177] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl\n'}
+[1.772231] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl\n'}
+[1.772307] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl\n'}
+[1.772394] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl\n'}
+[1.772481] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl\n'}
+[1.772557] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl\n'}
+[1.772651] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20\n'}
+[1.772720] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual\n'}
+[1.772771] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae\n'}
+[1.772940] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae\n'}
+[1.773505] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae\n'}
+[1.773915] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae\n'}
+[1.774145] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae\n'}
+[1.774741] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae\n'}
+[1.775120] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png\n'}
+[1.776285] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae\n'}
+[1.776624] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision\n'}
+[1.776766] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl\n'}
+[1.776842] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl\n'}
+[1.776961] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl\n'}
+[1.777029] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl\n'}
+[1.777099] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl\n'}
+[1.777168] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl\n'}
+[1.777247] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl\n'}
+[1.777352] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt\n'}
+[1.777481] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3\n'}
+[1.777553] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual\n'}
+[1.777607] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae\n'}
+[1.778725] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae\n'}
+[1.780406] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae\n'}
+[1.780927] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae\n'}
+[1.781477] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae\n'}
+[1.782185] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae\n'}
+[1.782314] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae\n'}
+[1.782831] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision\n'}
+[1.782958] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl\n'}
+[1.783030] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl\n'}
+[1.783159] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl\n'}
+[1.783499] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl\n'}
+[1.783780] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl\n'}
+[1.784228] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl\n'}
+[1.784568] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl\n'}
+[1.784757] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e\n'}
+[1.784862] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual\n'}
+[1.784917] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae\n'}
+[1.786386] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae\n'}
+[1.789004] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae\n'}
+[1.789254] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae\n'}
+[1.790287] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae\n'}
+[1.791285] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae\n'}
+[1.791543] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae\n'}
+[1.792489] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision\n'}
+[1.792623] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl\n'}
+[1.792695] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl\n'}
+[1.792760] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl\n'}
+[1.792831] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl\n'}
+[1.792962] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl\n'}
+[1.793072] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl\n'}
+[1.793175] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl\n'}
+[1.793287] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e\n'}
+[1.793359] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual\n'}
+[1.793410] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae\n'}
+[1.795538] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae\n'}
+[1.796628] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision\n'}
+[1.796848] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl\n'}
+[1.797001] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl\n'}
+[1.797202] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e\n'}
+[1.797314] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual\n'}
+[1.797413] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae\n'}
+[1.798436] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae\n'}
+[1.800697] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae\n'}
+[1.801056] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae\n'}
+[1.802218] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae\n'}
+[1.803098] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae\n'}
+[1.803313] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae\n'}
+[1.804250] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision\n'}
+[1.804380] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl\n'}
+[1.804464] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl\n'}
+[1.804519] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl\n'}
+[1.804593] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl\n'}
+[1.804667] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl\n'}
+[1.804811] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl\n'}
+[1.804943] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl\n'}
+[1.805016] (-) TimerEvent: {}
+[1.805117] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30\n'}
+[1.805175] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual\n'}
+[1.805225] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae\n'}
+[1.805635] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae\n'}
+[1.806304] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png\n'}
+[1.807460] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision\n'}
+[1.807630] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl\n'}
+[1.807787] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl\n'}
+[1.807954] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt\n'}
+[1.808106] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models\n'}
+[1.808241] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane\n'}
+[1.808311] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model-1_3.sdf\n'}
+[1.808378] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model-1_4.sdf\n'}
+[1.808454] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model.config\n'}
+[1.808515] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model-1_2.sdf\n'}
+[1.808586] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/ground_plane/model.sdf\n'}
+[1.808655] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun\n'}
+[1.808719] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model-1_3.sdf\n'}
+[1.808791] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model-1_4.sdf\n'}
+[1.808852] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model.config\n'}
+[1.808902] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model-1_2.sdf\n'}
+[1.808965] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/models/sun/model.sdf\n'}
+[1.809029] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/rviz\n'}
+[1.809102] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz\n'}
+[1.809150] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf\n'}
+[1.809207] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro\n'}
+[1.809266] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro\n'}
+[1.809338] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro\n'}
+[1.809386] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur5.urdf\n'}
+[1.809433] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/inc\n'}
+[1.809480] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro\n'}
+[1.809538] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro\n'}
+[1.809594] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/test\n'}
+[1.809651] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py\n'}
+[1.809707] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py\n'}
+[1.809774] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description\n'}
+[1.809822] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description\n'}
+[1.809875] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh\n'}
+[1.809954] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv\n'}
+[1.810013] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/path.sh\n'}
+[1.810066] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/environment/path.dsv\n'}
+[1.810122] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.bash\n'}
+[1.810200] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.sh\n'}
+[1.810269] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.zsh\n'}
+[1.810338] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/local_setup.dsv\n'}
+[1.810404] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/package.dsv\n'}
+[1.810514] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description\n'}
+[1.810612] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake\n'}
+[1.810683] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake\n'}
+[1.810785] (ur_description) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur_description/share/ur_description/package.xml\n'}
+[1.812465] (ur_description) CommandEnded: {'returncode': 0}
+[1.844645] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 0}
+[1.905136] (-) TimerEvent: {}
+[1.987688] (ur5_controller) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[1.996630] (ur5_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.997519] (ur5_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.997680] (ur5_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.001698] (ur5_controller) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.005252] (-) TimerEvent: {}
+[2.008543] (ur5_controller) StdoutLine: {'line': b'-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[2.033119] (ur5_controller) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.043311] (ur5_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.063908] (ur5_controller) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.105373] (-) TimerEvent: {}
+[2.154890] (ur5_controller) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.205455] (-) TimerEvent: {}
+[2.305691] (-) TimerEvent: {}
+[2.405982] (-) TimerEvent: {}
+[2.506279] (-) TimerEvent: {}
+[2.606552] (-) TimerEvent: {}
+[2.706811] (-) TimerEvent: {}
+[2.807113] (-) TimerEvent: {}
+[2.907404] (-) TimerEvent: {}
+[3.007700] (-) TimerEvent: {}
+[3.107998] (-) TimerEvent: {}
+[3.112174] (ur5_controller) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[3.116237] (ur5_controller) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[3.208077] (ur5_controller) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[3.208302] (-) TimerEvent: {}
+[3.308574] (-) TimerEvent: {}
+[3.408901] (-) TimerEvent: {}
+[3.509304] (-) TimerEvent: {}
+[3.609686] (-) TimerEvent: {}
+[3.671497] (ur5_controller) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[3.709786] (-) TimerEvent: {}
+[3.810108] (-) TimerEvent: {}
+[3.910454] (-) TimerEvent: {}
+[3.948075] (ur5_controller) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[4.010551] (-) TimerEvent: {}
+[4.110874] (-) TimerEvent: {}
+[4.211145] (-) TimerEvent: {}
+[4.311521] (-) TimerEvent: {}
+[4.316889] (ur5_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.378241] (ur5_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.378581] (ur5_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.378739] (ur5_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.378852] (ur5_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.379006] (ur5_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.379147] (ur5_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.379720] (ur5_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.379856] (ur5_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.380068] (ur5_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.380883] (ur5_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.404081] (ur5_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[4.405969] (ur5_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/om/ros2_ws/build/ur5_controller\n'}
+[4.411681] (-) TimerEvent: {}
+[4.418930] (ur5_controller) CommandEnded: {'returncode': 0}
+[4.420644] (ur5_controller) JobProgress: {'identifier': 'ur5_controller', 'progress': 'build'}
+[4.420681] (ur5_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/ros2_ws/build/ur5_controller', '--', '-j8', '-l8'], 'cwd': '/home/om/ros2_ws/build/ur5_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1345'), ('SYSTEMD_EXEC_PID', '1517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2850'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:25318'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1489,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1489'), ('INVOCATION_ID', '6c84bb12872e49c58f749b1d467a5767'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WAMYO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dc05370a-4072-49cc-9dbb-0199d24a4d8e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/ros2_ws/build/ur5_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.465434] (ur5_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o\x1b[0m\n'}
+[4.465661] (ur5_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveit_cartesian_planner.dir/src/moveit_cartesian_planner.cpp.o\x1b[0m\n'}
+[4.512114] (-) TimerEvent: {}
+[4.612593] (-) TimerEvent: {}
+[4.713062] (-) TimerEvent: {}
+[4.813371] (-) TimerEvent: {}
+[4.913678] (-) TimerEvent: {}
+[5.013998] (-) TimerEvent: {}
+[5.114311] (-) TimerEvent: {}
+[5.214724] (-) TimerEvent: {}
+[5.315452] (-) TimerEvent: {}
+[5.416015] (-) TimerEvent: {}
+[5.516648] (-) TimerEvent: {}
+[5.617033] (-) TimerEvent: {}
+[5.717900] (-) TimerEvent: {}
+[5.818498] (-) TimerEvent: {}
+[5.919125] (-) TimerEvent: {}
+[6.019761] (-) TimerEvent: {}
+[6.120380] (-) TimerEvent: {}
+[6.220719] (-) TimerEvent: {}
+[6.321632] (-) TimerEvent: {}
+[6.422305] (-) TimerEvent: {}
+[6.522936] (-) TimerEvent: {}
+[6.623639] (-) TimerEvent: {}
+[6.724293] (-) TimerEvent: {}
+[6.824665] (-) TimerEvent: {}
+[6.925029] (-) TimerEvent: {}
+[7.025402] (-) TimerEvent: {}
+[7.125799] (-) TimerEvent: {}
+[7.226162] (-) TimerEvent: {}
+[7.326745] (-) TimerEvent: {}
+[7.427372] (-) TimerEvent: {}
+[7.527747] (-) TimerEvent: {}
+[7.628149] (-) TimerEvent: {}
+[7.728523] (-) TimerEvent: {}
+[7.828894] (-) TimerEvent: {}
+[7.929667] (-) TimerEvent: {}
+[8.030273] (-) TimerEvent: {}
+[8.131014] (-) TimerEvent: {}
+[8.231626] (-) TimerEvent: {}
+[8.332309] (-) TimerEvent: {}
+[8.432911] (-) TimerEvent: {}
+[8.533514] (-) TimerEvent: {}
+[8.633863] (-) TimerEvent: {}
+[8.734639] (-) TimerEvent: {}
+[8.835245] (-) TimerEvent: {}
+[8.935972] (-) TimerEvent: {}
+[9.036599] (-) TimerEvent: {}
+[9.136965] (-) TimerEvent: {}
+[9.237317] (-) TimerEvent: {}
+[9.337694] (-) TimerEvent: {}
+[9.438397] (-) TimerEvent: {}
+[9.539027] (-) TimerEvent: {}
+[9.640129] (-) TimerEvent: {}
+[9.740487] (-) TimerEvent: {}
+[9.840844] (-) TimerEvent: {}
+[9.941217] (-) TimerEvent: {}
+[10.041637] (-) TimerEvent: {}
+[10.141992] (-) TimerEvent: {}
+[10.242758] (-) TimerEvent: {}
+[10.343105] (-) TimerEvent: {}
+[10.443457] (-) TimerEvent: {}
+[10.543822] (-) TimerEvent: {}
+[10.644186] (-) TimerEvent: {}
+[10.744680] (-) TimerEvent: {}
+[10.845390] (-) TimerEvent: {}
+[10.945742] (-) TimerEvent: {}
+[11.046294] (-) TimerEvent: {}
+[11.146998] (-) TimerEvent: {}
+[11.247556] (-) TimerEvent: {}
+[11.347903] (-) TimerEvent: {}
+[11.448271] (-) TimerEvent: {}
+[11.548627] (-) TimerEvent: {}
+[11.648993] (-) TimerEvent: {}
+[11.749355] (-) TimerEvent: {}
+[11.849710] (-) TimerEvent: {}
+[11.950411] (-) TimerEvent: {}
+[12.051411] (-) TimerEvent: {}
+[12.151765] (-) TimerEvent: {}
+[12.252683] (-) TimerEvent: {}
+[12.349814] (ur5_controller) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable moveit_cartesian_planner\x1b[0m\n'}
+[12.352800] (-) TimerEvent: {}
+[12.408490] (ur5_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable position_publisher\x1b[0m\n'}
+[12.452931] (-) TimerEvent: {}
+[12.553259] (-) TimerEvent: {}
+[12.654175] (-) TimerEvent: {}
+[12.754897] (-) TimerEvent: {}
+[12.827492] (ur5_controller) StdoutLine: {'line': b'[100%] Built target moveit_cartesian_planner\n'}
+[12.855015] (-) TimerEvent: {}
+[12.865675] (ur5_controller) StdoutLine: {'line': b'[100%] Built target position_publisher\n'}
+[12.875256] (ur5_controller) CommandEnded: {'returncode': 0}
+[12.899162] (ur5_controller) JobProgress: {'identifier': 'ur5_controller', 'progress': 'install'}
+[12.899792] (ur5_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/ros2_ws/build/ur5_controller'], 'cwd': '/home/om/ros2_ws/build/ur5_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1345'), ('SYSTEMD_EXEC_PID', '1517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2850'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:25318'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1489,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1489'), ('INVOCATION_ID', '6c84bb12872e49c58f749b1d467a5767'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WAMYO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:dc05370a-4072-49cc-9dbb-0199d24a4d8e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/ros2_ws/build/ur5_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.907131] (ur5_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.907472] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_publisher\n'}
+[12.909988] (ur5_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_publisher" to ""\n'}
+[12.910151] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/moveit_cartesian_planner\n'}
+[12.910855] (ur5_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/moveit_cartesian_planner" to ""\n'}
+[12.910947] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/config\n'}
+[12.911080] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/config/ur5_controller.yaml\n'}
+[12.911214] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch\n'}
+[12.911366] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch/controller.launch.py\n'}
+[12.911536] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch/moveit2_launch.py\n'}
+[12.911764] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller\n'}
+[12.912043] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller\n'}
+[12.912198] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh\n'}
+[12.912287] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv\n'}
+[12.912354] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/path.sh\n'}
+[12.912418] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/path.dsv\n'}
+[12.912482] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.bash\n'}
+[12.912554] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.sh\n'}
+[12.912616] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.zsh\n'}
+[12.912664] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.dsv\n'}
+[12.912724] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/package.dsv\n'}
+[12.912773] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller\n'}
+[12.912836] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake\n'}
+[12.912901] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake\n'}
+[12.912985] (ur5_controller) StdoutLine: {'line': b'-- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/package.xml\n'}
+[12.914472] (ur5_controller) CommandEnded: {'returncode': 0}
+[12.944563] (ur5_controller) JobEnded: {'identifier': 'ur5_controller', 'rc': 0}
+[12.945712] (-) EventReactorShutdown: {}
