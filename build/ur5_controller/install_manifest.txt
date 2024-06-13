@@ -1,3 +1,4 @@
+/home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_pub_nomoveit
 /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_publisher
 /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/moveit_cartesian_planner
 /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/config/ur5_controller.yaml

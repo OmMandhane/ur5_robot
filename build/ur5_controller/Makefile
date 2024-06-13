@@ -223,6 +223,19 @@ moveit_cartesian_planner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_cartesian_planner.dir/build.make CMakeFiles/moveit_cartesian_planner.dir/build
 .PHONY : moveit_cartesian_planner/fast
 
+#=============================================================================
+# Target rules for targets named position_pub_nomoveit
+
+# Build rule for target.
+position_pub_nomoveit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 position_pub_nomoveit
+.PHONY : position_pub_nomoveit
+
+# fast build rule for target.
+position_pub_nomoveit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_pub_nomoveit.dir/build.make CMakeFiles/position_pub_nomoveit.dir/build
+.PHONY : position_pub_nomoveit/fast
+
 src/moveit_cartesian_planner.o: src/moveit_cartesian_planner.cpp.o
 .PHONY : src/moveit_cartesian_planner.o
 
@@ -246,6 +259,30 @@ src/moveit_cartesian_planner.s: src/moveit_cartesian_planner.cpp.s
 src/moveit_cartesian_planner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_cartesian_planner.dir/build.make CMakeFiles/moveit_cartesian_planner.dir/src/moveit_cartesian_planner.cpp.s
 .PHONY : src/moveit_cartesian_planner.cpp.s
+
+src/position_pub_nomoveit.o: src/position_pub_nomoveit.cpp.o
+.PHONY : src/position_pub_nomoveit.o
+
+# target to build an object file
+src/position_pub_nomoveit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_pub_nomoveit.dir/build.make CMakeFiles/position_pub_nomoveit.dir/src/position_pub_nomoveit.cpp.o
+.PHONY : src/position_pub_nomoveit.cpp.o
+
+src/position_pub_nomoveit.i: src/position_pub_nomoveit.cpp.i
+.PHONY : src/position_pub_nomoveit.i
+
+# target to preprocess a source file
+src/position_pub_nomoveit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_pub_nomoveit.dir/build.make CMakeFiles/position_pub_nomoveit.dir/src/position_pub_nomoveit.cpp.i
+.PHONY : src/position_pub_nomoveit.cpp.i
+
+src/position_pub_nomoveit.s: src/position_pub_nomoveit.cpp.s
+.PHONY : src/position_pub_nomoveit.s
+
+# target to generate assembly for a file
+src/position_pub_nomoveit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_pub_nomoveit.dir/build.make CMakeFiles/position_pub_nomoveit.dir/src/position_pub_nomoveit.cpp.s
+.PHONY : src/position_pub_nomoveit.cpp.s
 
 src/position_publisher.o: src/position_publisher.cpp.o
 .PHONY : src/position_publisher.o
@@ -287,10 +324,14 @@ help:
 	@echo "... uninstall"
 	@echo "... ur5_controller_uninstall"
 	@echo "... moveit_cartesian_planner"
+	@echo "... position_pub_nomoveit"
 	@echo "... position_publisher"
 	@echo "... src/moveit_cartesian_planner.o"
 	@echo "... src/moveit_cartesian_planner.i"
 	@echo "... src/moveit_cartesian_planner.s"
+	@echo "... src/position_pub_nomoveit.o"
+	@echo "... src/position_pub_nomoveit.i"
+	@echo "... src/position_pub_nomoveit.s"
 	@echo "... src/position_publisher.o"
 	@echo "... src/position_publisher.i"
 	@echo "... src/position_publisher.s"

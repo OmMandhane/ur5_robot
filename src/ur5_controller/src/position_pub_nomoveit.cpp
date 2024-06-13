@@ -1,3 +1,4 @@
+
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/float64_multi_array.hpp>
 #include <kdl_parser/kdl_parser.hpp>
@@ -10,10 +11,11 @@
 #include <fstream>
 #include <array>
 #include <memory>
+#include <thread>
 
 class PositionPublisher : public rclcpp::Node {
 public:
-    PositionPublisher(const KDL::Vector& tcp_goal) 
+    PositionPublisher(const KDL::Vector& tcp_goal)
         : Node("position_publisher"), tcp_goal_(tcp_goal) {
         publisher_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("/simple_position_controller/commands", 10);
         timer_ = this->create_wall_timer(std::chrono::milliseconds(1000), std::bind(&PositionPublisher::publish_positions, this));
@@ -55,32 +57,45 @@ private:
         // Compute forward kinematics to get the current TCP position
         KDL::Frame tcp_pos_start;
         fk_solver_->JntToCart(jnt_pos_start, tcp_pos_start);
+        KDL::Vector tcp_start = tcp_pos_start.p;
 
-        // Set goal TCP position based on the provided tcp_goal_
-        KDL::Frame tcp_pos_goal(tcp_pos_start.M, tcp_goal_);
+        // Generate linear path
+        int steps = 100;  // Number of waypoints in the path
+        std::vector<KDL::Vector> path = generate_linear_path(tcp_start, tcp_goal_, steps);
 
-        // Compute inverse kinematics to get the goal joint positions
-        KDL::JntArray jnt_pos_goal(kdl_chain_.getNrOfJoints());
-        if (ik_solver_->CartToJnt(jnt_pos_start, tcp_pos_goal, jnt_pos_goal) < 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to compute IK");
-            return;
+        for (const auto& waypoint : path) {
+            // Set goal TCP position for the current waypoint
+            KDL::Frame tcp_pos_goal(tcp_pos_start.M, waypoint);
+
+            // Compute inverse kinematics to get the goal joint positions
+            KDL::JntArray jnt_pos_goal(kdl_chain_.getNrOfJoints());
+            if (ik_solver_->CartToJnt(jnt_pos_start, tcp_pos_goal, jnt_pos_goal) < 0) {
+                RCLCPP_ERROR(this->get_logger(), "Failed to compute IK for waypoint");
+                return;
+            }
+
+            // Publish the goal joint positions
+            std_msgs::msg::Float64MultiArray msg;
+            for (unsigned int i = 0; i < jnt_pos_goal.rows(); ++i) {
+                msg.data.push_back(jnt_pos_goal(i));
+            }
+            publisher_->publish(msg);
+
+            // Optional: Add a small delay to allow the robot to move to the next waypoint
+            std::this_thread::sleep_for(std::chrono::milliseconds(10));
+
+            // Update start joint positions for the next iteration
+            jnt_pos_start = jnt_pos_goal;
         }
-
-        // Publish the goal joint positions
-        std_msgs::msg::Float64MultiArray msg;
-        for (unsigned int i = 0; i < jnt_pos_goal.rows(); ++i) {
-            msg.data.push_back(jnt_pos_goal(i));
-        }
-        publisher_->publish(msg);
     }
 
     std::string generate_urdf(const std::string &xacro_file, const std::string &ur_type) {
         std::string command = "ros2 run xacro xacro " + xacro_file +
                               " ur_type:=" + ur_type +
-                              " name:=ur" +  // Ensure 'name' argument is passed
-                              " safety_limits:=false" +  // Default to false or add other required arguments
-                              " safety_pos_margin:=0.15" +  // Default values
-                              " safety_k_position:=20";  // Default values
+                              " name:=ur" +
+                              " safety_limits:=false" +
+                              " safety_pos_margin:=0.15" +
+                              " safety_k_position:=20";
         std::array<char, 128> buffer;
         std::string result;
         std::shared_ptr<FILE> pipe(popen(command.c_str(), "r"), pclose);
@@ -91,6 +106,16 @@ private:
             result += buffer.data();
         }
         return result;
+    }
+
+    std::vector<KDL::Vector> generate_linear_path(const KDL::Vector& start, const KDL::Vector& goal, int steps) {
+        std::vector<KDL::Vector> path;
+        for (int i = 0; i <= steps; ++i) {
+            double alpha = static_cast<double>(i) / steps;
+            KDL::Vector waypoint = start * (1.0 - alpha) + goal * alpha;
+            path.push_back(waypoint);
+        }
+        return path;
     }
 
     rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr publisher_;
@@ -122,3 +147,4 @@ int main(int argc, char *argv[]) {
     rclcpp::shutdown();
     return 0;
 }
+

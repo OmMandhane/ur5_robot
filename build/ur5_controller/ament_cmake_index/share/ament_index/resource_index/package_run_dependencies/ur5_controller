@@ -1,1 +1,1 @@
-rclcpp;std_msgs;kdl_parser;orocos_kdl;urdf;ament_index_cpp;moveit_ros_planning_interface;geometry_msgs;tf2_ros;ros2launch;controller_manager;ament_index_python;ament_lint_auto;ament_lint_common
+rclcpp;std_msgs;kdl_parser;orocos_kdl;urdf;ament_index_cpp;moveit_ros_planning_interface;geometry_msgs;sensor_msgs;tf2_ros;ros2launch;controller_manager;ament_index_python;ament_lint_auto;ament_lint_common

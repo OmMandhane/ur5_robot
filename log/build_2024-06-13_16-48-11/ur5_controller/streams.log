@@ -1,0 +1,75 @@
+[0.014s] Invoking command in '/home/om/ros2_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ros2_ws/build/ur5_controller -- -j8 -l8
+[0.039s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.180s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.215s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.226s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.322s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.326s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.359s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.506s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.637s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.639s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.642s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.645s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.651s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.668s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.676s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.695s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.733s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.722s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.726s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.819s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.285s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.508s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.899s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.957s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.958s] -- Configured cppcheck include dirs: /home/om/ros2_ws/src/ur5_controller/include
+[3.958s] -- Configured cppcheck exclude dirs and/or files: 
+[3.958s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.959s] -- Added test 'lint_cmake' to check CMake code style
+[3.959s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.960s] -- Added test 'uncrustify' to check C / C++ code style
+[3.960s] -- Configured uncrustify additional arguments: 
+[3.960s] -- Added test 'xmllint' to check XML markup files
+[3.961s] -- Configuring done
+[3.999s] -- Generating done
+[4.001s] -- Build files have been written to: /home/om/ros2_ws/build/ur5_controller
+[4.027s] [35m[1mConsolidate compiler generated dependencies of target position_publisher[0m
+[4.028s] [35m[1mConsolidate compiler generated dependencies of target moveit_cartesian_planner[0m
+[4.036s] [35m[1mConsolidate compiler generated dependencies of target position_pub_nomoveit[0m
+[4.059s] [ 33%] Built target position_publisher
+[4.060s] [ 50%] [32mBuilding CXX object CMakeFiles/position_pub_nomoveit.dir/src/position_pub_nomoveit.cpp.o[0m
+[4.063s] [ 83%] Built target moveit_cartesian_planner
+[11.595s] [100%] [32m[1mLinking CXX executable position_pub_nomoveit[0m
+[12.062s] [100%] Built target position_pub_nomoveit
+[12.073s] Invoked command in '/home/om/ros2_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ros2_ws/build/ur5_controller -- -j8 -l8
+[12.104s] Invoking command in '/home/om/ros2_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ros2_ws/build/ur5_controller
+[12.110s] -- Install configuration: ""
+[12.110s] -- Installing: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_pub_nomoveit
+[12.114s] -- Set runtime path of "/home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_pub_nomoveit" to ""
+[12.114s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_publisher
+[12.114s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/moveit_cartesian_planner
+[12.114s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/config
+[12.114s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/config/ur5_controller.yaml
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch/controller.launch.py
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch/moveit2_launch.py
+[12.115s] -- Installing: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh
+[12.115s] -- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/path.sh
+[12.115s] -- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/path.dsv
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.bash
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.sh
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.zsh
+[12.115s] -- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.dsv
+[12.115s] -- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/package.dsv
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake
+[12.115s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake
+[12.115s] -- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/package.xml
+[12.117s] Invoked command in '/home/om/ros2_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ros2_ws/build/ur5_controller

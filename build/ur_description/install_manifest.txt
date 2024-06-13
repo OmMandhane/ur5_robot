@@ -160,6 +160,7 @@
 /home/om/ros2_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
 /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
 /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+/home/om/ros2_ws/install/ur_description/share/ur_description/urdf/alternate_ur5.urdf
 /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
 /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/ur5.urdf
 /home/om/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro

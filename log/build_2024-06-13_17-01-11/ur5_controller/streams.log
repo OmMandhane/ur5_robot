@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/home/om/ros2_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ros2_ws/build/ur5_controller -- -j8 -l8
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target position_pub_nomoveit[0m
+[0.092s] [ 33%] Built target position_publisher
+[0.096s] [ 66%] Built target moveit_cartesian_planner
+[0.104s] [ 83%] [32mBuilding CXX object CMakeFiles/position_pub_nomoveit.dir/src/position_pub_nomoveit.cpp.o[0m
+[9.552s] [100%] [32m[1mLinking CXX executable position_pub_nomoveit[0m
+[10.030s] [100%] Built target position_pub_nomoveit
+[10.041s] Invoked command in '/home/om/ros2_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ros2_ws/build/ur5_controller -- -j8 -l8
+[10.071s] Invoking command in '/home/om/ros2_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ros2_ws/build/ur5_controller
+[10.078s] -- Install configuration: ""
+[10.078s] -- Installing: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_pub_nomoveit
+[10.082s] -- Set runtime path of "/home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_pub_nomoveit" to ""
+[10.082s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/position_publisher
+[10.083s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/lib/ur5_controller/moveit_cartesian_planner
+[10.083s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/config
+[10.083s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/config/ur5_controller.yaml
+[10.083s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch
+[10.083s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch/controller.launch.py
+[10.083s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/launch/moveit2_launch.py
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/path.sh
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/environment/path.dsv
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.bash
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.sh
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.zsh
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/local_setup.dsv
+[10.084s] -- Installing: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/package.dsv
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake
+[10.084s] -- Up-to-date: /home/om/ros2_ws/install/ur5_controller/share/ur5_controller/package.xml
+[10.085s] Invoked command in '/home/om/ros2_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ros2_ws/build/ur5_controller

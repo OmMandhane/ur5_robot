@@ -20,9 +20,15 @@ find_package(moveit_ros_planning_interface REQUIRED)
 find_package(moveit_ros_move_group REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(sensor_msgs REQUIRED)
+
+
+include_directories(include)
 # Add executable
 add_executable(position_publisher src/position_publisher.cpp)
 add_executable(moveit_cartesian_planner src/moveit_cartesian_planner.cpp)
+add_executable(position_pub_nomoveit src/position_pub_nomoveit.cpp)
+
 
 
 # Link libraries
@@ -35,6 +41,17 @@ ament_target_dependencies(position_publisher
   ament_index_cpp
 )
 
+ament_target_dependencies(position_pub_nomoveit
+  rclcpp
+  std_msgs
+  sensor_msgs
+  kdl_parser
+  orocos_kdl
+  urdf
+  ament_index_cpp
+)
+
+
 ament_target_dependencies(moveit_cartesian_planner
   moveit_ros_planning_interface
   rclcpp
@@ -46,6 +63,7 @@ ament_target_dependencies(moveit_cartesian_planner
 
 # Install targets
 install(TARGETS
+  position_pub_nomoveit
   position_publisher
   moveit_cartesian_planner
   DESTINATION lib/${PROJECT_NAME}

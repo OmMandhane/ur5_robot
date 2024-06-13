@@ -17,8 +17,9 @@
   <depend>ament_index_cpp</depend>
   <depend>moveit_ros_planning_interface</depend>
   <depend>geometry_msgs</depend>
-
-
+  <depend>sensor_msgs</depend>
+ 
+ 
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>ros2launch</exec_depend>    
   <exec_depend>controller_manager</exec_depend>   
