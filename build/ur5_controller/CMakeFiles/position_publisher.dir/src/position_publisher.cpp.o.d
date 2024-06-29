@@ -1,5 +1,5 @@
 CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o: \
- /home/om/ros2_ws/src/ur5_controller/src/position_publisher.cpp \
+ /home/om/ur5_robot/src/ur5_controller/src/position_publisher.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

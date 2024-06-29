@@ -6,9 +6,8 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     # Define paths to the URDF and SRDF files
-    urdf_file_path = "/home/om/ros2_ws/src/ur_description/urdf/ur5.urdf"
-    srdf_file_path = "/home/om/ros2_ws/src/ur_description/srdf/ur5.srdf"
-
+    urdf_file_path = "/home/om/ur5_robot/src/ur_description/urdf/ur5.urdf"
+    srdf_file_path = "/home/om/ur5_robot/src/ur_description/srdf/ur5.srdf"
     return LaunchDescription([
         DeclareLaunchArgument(
             'urdf_file',

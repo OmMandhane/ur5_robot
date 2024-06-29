@@ -1,0 +1,6 @@
+Invoking command in '/home/om/ur5_robot/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/ur5_robot/src/ur5_controller -DCMAKE_INSTALL_PREFIX=/home/om/ur5_robot/install/ur5_controller
+Invoked command in '/home/om/ur5_robot/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/ur5_robot/src/ur5_controller -DCMAKE_INSTALL_PREFIX=/home/om/ur5_robot/install/ur5_controller
+Invoking command in '/home/om/ur5_robot/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_robot/build/ur5_controller -- -j12 -l12
+Invoked command in '/home/om/ur5_robot/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_robot/build/ur5_controller -- -j12 -l12
+Invoking command in '/home/om/ur5_robot/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_robot/build/ur5_controller
+Invoked command in '/home/om/ur5_robot/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_robot/build/ur5_controller

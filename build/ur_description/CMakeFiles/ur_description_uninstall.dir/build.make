@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/om/ros2_ws/src/ur_description
+CMAKE_SOURCE_DIR = /home/om/ur5_robot/src/ur_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/om/ros2_ws/build/ur_description
+CMAKE_BINARY_DIR = /home/om/ur5_robot/build/ur_description
 
 # Utility rule file for ur_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ur_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/ur_description_uninstall.dir/progress.make
 
 CMakeFiles/ur_description_uninstall:
-	/usr/bin/cmake -P /home/om/ros2_ws/build/ur_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/om/ur5_robot/build/ur_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ur_description_uninstall: CMakeFiles/ur_description_uninstall
 ur_description_uninstall: CMakeFiles/ur_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ur_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/ur_description_uninstall.dir/clean
 
 CMakeFiles/ur_description_uninstall.dir/depend:
-	cd /home/om/ros2_ws/build/ur_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/ros2_ws/src/ur_description /home/om/ros2_ws/src/ur_description /home/om/ros2_ws/build/ur_description /home/om/ros2_ws/build/ur_description /home/om/ros2_ws/build/ur_description/CMakeFiles/ur_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/ur5_robot/build/ur_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/ur5_robot/src/ur_description /home/om/ur5_robot/src/ur_description /home/om/ur5_robot/build/ur_description /home/om/ur5_robot/build/ur_description /home/om/ur5_robot/build/ur_description/CMakeFiles/ur_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ur_description_uninstall.dir/depend
 

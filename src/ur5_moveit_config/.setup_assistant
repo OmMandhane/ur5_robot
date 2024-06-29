@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ur_description
+    relative_path: urdf/alternate_ur5.urdf
+  srdf:
+    relative_path: config/ur5.srdf
+  package_settings:
+    author_name: om mandhane
+    author_email: stillwake27@gmail.com
+    generated_timestamp: 1719631474
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

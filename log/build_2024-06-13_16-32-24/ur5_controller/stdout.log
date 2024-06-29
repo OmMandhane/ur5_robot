@@ -1,3 +1,0 @@
-[ 50%] Built target position_publisher
-[ 50%] [32mBuilding CXX object CMakeFiles/position_pub_nomoveit.dir/src/position_pub_nomoveit.cpp.o[0m
-[ 83%] Built target moveit_cartesian_planner

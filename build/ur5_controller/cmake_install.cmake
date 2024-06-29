@@ -1,8 +1,8 @@
-# Install script for directory: /home/om/ros2_ws/src/ur5_controller
+# Install script for directory: /home/om/ur5_robot/src/ur5_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/om/ros2_ws/install/ur5_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/om/ur5_robot/install/ur5_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/position_pub_nomoveit"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur5_controller" TYPE EXECUTABLE FILES "/home/om/ros2_ws/build/ur5_controller/position_pub_nomoveit")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur5_controller" TYPE EXECUTABLE FILES "/home/om/ur5_robot/build/ur5_controller/position_pub_nomoveit")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/position_pub_nomoveit" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/position_pub_nomoveit")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/position_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur5_controller" TYPE EXECUTABLE FILES "/home/om/ros2_ws/build/ur5_controller/position_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur5_controller" TYPE EXECUTABLE FILES "/home/om/ur5_robot/build/ur5_controller/position_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/position_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/position_publisher")
     file(RPATH_CHANGE
@@ -89,7 +89,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/moveit_cartesian_planner"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur5_controller" TYPE EXECUTABLE FILES "/home/om/ros2_ws/build/ur5_controller/moveit_cartesian_planner")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ur5_controller" TYPE EXECUTABLE FILES "/home/om/ur5_robot/build/ur5_controller/moveit_cartesian_planner")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/moveit_cartesian_planner" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur5_controller/moveit_cartesian_planner")
     file(RPATH_CHANGE
@@ -104,17 +104,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE DIRECTORY FILES
-    "/home/om/ros2_ws/src/ur5_controller/config"
-    "/home/om/ros2_ws/src/ur5_controller/launch"
+    "/home/om/ur5_robot/src/ur5_controller/config"
+    "/home/om/ur5_robot/src/ur5_controller/launch"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur5_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur5_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur5_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur5_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -122,7 +122,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller/environment" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller/environment" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -130,42 +130,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller/environment" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller/environment" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/om/ros2_ws/build/ur5_controller/ament_cmake_index/share/ament_index/resource_index/packages/ur5_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/om/ur5_robot/build/ur5_controller/ament_cmake_index/share/ament_index/resource_index/packages/ur5_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller/cmake" TYPE FILE FILES
-    "/home/om/ros2_ws/build/ur5_controller/ament_cmake_core/ur5_controllerConfig.cmake"
-    "/home/om/ros2_ws/build/ur5_controller/ament_cmake_core/ur5_controllerConfig-version.cmake"
+    "/home/om/ur5_robot/build/ur5_controller/ament_cmake_core/ur5_controllerConfig.cmake"
+    "/home/om/ur5_robot/build/ur5_controller/ament_cmake_core/ur5_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ros2_ws/src/ur5_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5_controller" TYPE FILE FILES "/home/om/ur5_robot/src/ur5_controller/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -176,5 +176,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/om/ros2_ws/build/ur5_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/om/ur5_robot/build/ur5_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

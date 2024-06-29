@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/om/ros2_ws/src/ur5_controller
+CMAKE_SOURCE_DIR = /home/om/ur5_robot/src/ur5_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/om/ros2_ws/build/ur5_controller
+CMAKE_BINARY_DIR = /home/om/ur5_robot/build/ur5_controller
 
 # Utility rule file for ur5_controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ur5_controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/ur5_controller_uninstall.dir/progress.make
 
 CMakeFiles/ur5_controller_uninstall:
-	/usr/bin/cmake -P /home/om/ros2_ws/build/ur5_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/om/ur5_robot/build/ur5_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ur5_controller_uninstall: CMakeFiles/ur5_controller_uninstall
 ur5_controller_uninstall: CMakeFiles/ur5_controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ur5_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/ur5_controller_uninstall.dir/clean
 
 CMakeFiles/ur5_controller_uninstall.dir/depend:
-	cd /home/om/ros2_ws/build/ur5_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/ros2_ws/src/ur5_controller /home/om/ros2_ws/src/ur5_controller /home/om/ros2_ws/build/ur5_controller /home/om/ros2_ws/build/ur5_controller /home/om/ros2_ws/build/ur5_controller/CMakeFiles/ur5_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/ur5_robot/build/ur5_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/ur5_robot/src/ur5_controller /home/om/ur5_robot/src/ur5_controller /home/om/ur5_robot/build/ur5_controller /home/om/ur5_robot/build/ur5_controller /home/om/ur5_robot/build/ur5_controller/CMakeFiles/ur5_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ur5_controller_uninstall.dir/depend
 
